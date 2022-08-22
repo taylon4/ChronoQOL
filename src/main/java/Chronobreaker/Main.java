@@ -12,7 +12,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = "ChronoQOL", version = "1.0", clientSideOnly = true, acceptedMinecraftVersions = "[1.8.9]")
+@Mod(modid = "ChronoQOL", version = "0.9", clientSideOnly = true, acceptedMinecraftVersions = "[1.8.9]")
 public class Main {
 	
 

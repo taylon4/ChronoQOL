@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class HistoryLog<T> extends ArrayList<Object[]>{
 	
 	private long lastTime = 0;
-	//how often a log should be put in 
-	private long step = 50;
+	//how often a log should be put in, higher = less frequent logs
+	private long step = 30;
 	
 	public HistoryLog() {
 		super();

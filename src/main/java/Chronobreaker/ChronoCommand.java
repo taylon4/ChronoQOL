@@ -21,10 +21,10 @@ public class ChronoCommand extends CommandBase{
 	
 	public void processCommand(ICommandSender sender, String[] args) {
 		if(args.length == 0) {
-			String header = EnumChatFormatting.DARK_GRAY + "--------- " + EnumChatFormatting.DARK_AQUA + "ChronoQOL " + EnumChatFormatting.GRAY + "v1.0 " + EnumChatFormatting.DARK_GRAY + "---------\n";
+			String header = EnumChatFormatting.DARK_GRAY + "--------- " + EnumChatFormatting.DARK_AQUA + "ChronoQOL " + EnumChatFormatting.GRAY + "v0.9 " + EnumChatFormatting.DARK_GRAY + "---------\n";
 			String toggle = EnumChatFormatting.GOLD + "/chrono toggle " + EnumChatFormatting.GRAY + "- Toggles mod on/off\n";
-			String teleport = EnumChatFormatting.GOLD + "/chrono tp " + EnumChatFormatting.GRAY + "- Shows the position where you will \n                    " + EnumChatFormatting.GRAY + "teleport to while holding " + EnumChatFormatting.YELLOW + "Echo\n";
-			String teleportall = EnumChatFormatting.GOLD + "/chrono tpall " + EnumChatFormatting.GRAY + "- Displays the position you will teleport \n                         " + EnumChatFormatting.GRAY + "to without needing to hold " + EnumChatFormatting.YELLOW + "Echo\n";
+			String teleport = EnumChatFormatting.GOLD + "/chrono tp " + EnumChatFormatting.GRAY + "- Shows the position where you will \n                  " + EnumChatFormatting.GRAY + "teleport to while holding " + EnumChatFormatting.YELLOW + "Echo\n";
+			String teleportall = EnumChatFormatting.GOLD + "/chrono tpall " + EnumChatFormatting.GRAY + "- Displays the position you will teleport \n                     " + EnumChatFormatting.GRAY + "to without needing to hold " + EnumChatFormatting.YELLOW + "Echo\n";
 			String cooldown = EnumChatFormatting.GOLD + "/chrono cd " + EnumChatFormatting.GRAY + "- Toggles the cooldown indicator\n";
 			String footer = EnumChatFormatting.DARK_GRAY+ "------------------------------------------------";
 			

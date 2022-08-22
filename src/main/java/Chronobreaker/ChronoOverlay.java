@@ -85,11 +85,9 @@ public class ChronoOverlay{
 		
 		//Renders text in the center of slot, needs to adjust if there is only 1 digit on the countdown
 		if(cooldown.getTimeLeft() < 10) {
-			fontrd.drawString(""+cooldown.getTimeLeft(), left + 5.9F, top + 4.5F, Color.black.getRGB(), false);
 			fontrd.drawString(""+cooldown.getTimeLeft(), left + 6F, top + 4.5F, Color.red.getRGB(), false);
 		}
 		else {
-			fontrd.drawString(""+cooldown.getTimeLeft(), left + 2.4F, top + 4.5F, Color.black.getRGB(), false);
 			fontrd.drawString(""+cooldown.getTimeLeft(), left + 2.5F, top + 4.5F, Color.red.getRGB(), false);
 		}
 		

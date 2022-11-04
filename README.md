@@ -5,7 +5,11 @@ This mod adds a few QOL features for the Hypixel Skywars kit chronobreaker. At t
 
 ## List of Commands:
 /chrono - list all commands in chat
+
 /chrono toggle - toggles mod
+
 /chrono tp - shows where you will teleport to while holding the Echo ability
+
 /chrono tpall - shows where you will teleport to while holding Echo, or if the cooldown of Echo is done
+
 /chrono cd - toggles cooldown command
